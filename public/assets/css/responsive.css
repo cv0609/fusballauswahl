@@ -59,7 +59,13 @@
     .custom-toggler {
         display: block;
     }
-
+    .avatar-content{
+        justify-content: center;
+    }
+    .avatar .dropdown {
+        position: static;
+        margin: 10px auto;
+    }
   
 
     .custom-closer {

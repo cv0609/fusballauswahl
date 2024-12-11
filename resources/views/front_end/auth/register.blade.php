@@ -36,8 +36,7 @@
                         @enderror
                     </fieldset>
                     <fieldset>
-                    <input type="password" name="password" placeholder="Password" class="form-control para" id="password-field">
-                        <i class="fas fa-eye toggle-password"></i>
+                    <input type="password" name="password" placeholder="Password" class="form-control para" id="password-field">                        
                         @error('password')
                         <span class="text-danger">{{ $message }}</span>
                         @enderror
@@ -54,7 +53,7 @@
                             an</button>
                     </fieldset>
                     <p class="jump-text">
-                        Sie haben bereits ein Konto? <a href="{{ route('login') }}">Login</a>
+                        Sie haben bereits ein Konto? <a href="{{ route('login') }}"> Login</a>
                     </p>
                 </form>
             </div>
