@@ -7,7 +7,6 @@
     font-family: NeueMachina;
     src: url(../fonts/NeueMachina-Regular.otf);
 }
-
 /* Global CSS Start */
 
 * {
@@ -70,18 +69,17 @@ a {
 
 button,
 input[type=text],
+input[type=tel],
 input[type=submit],
 input[type=password],
 textarea,
 input[type=email] {
     font-family: NeueMachina;
-    text-transform: uppercase;
     font-weight: 600;
 }
 
 input {
     font-family: NeueMachina;
-    text-transform: uppercase;
     font-weight: 600;
 }
 
@@ -239,6 +237,7 @@ img {
 
 .custom-menu {
     display: flex;
+    position: relative;
 }
 
 .custom-menu ul {
@@ -1030,8 +1029,7 @@ img {
 #login-signup input[type="url"],
 #login-signup textarea,
 #login-signup button[type="submit"] {
-    font-family: NeueMachina-bold;
-    text-transform: uppercase;
+    font-family: NeueMachina;
     color: #d7d6d6;
 }
 
@@ -1086,6 +1084,7 @@ fieldset:last-child {
     margin: 0 0 5px;
     padding: 10px;
     border-radius: 5px;
+    color: #000;
 }
 
 #login-signup input[type="text"]:hover,
@@ -2042,7 +2041,7 @@ td.match-team-logo a {
     width: max-content;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
-    left: 0;
+    right: 0;
     top: 120%;
     display: none;
 }
@@ -2050,15 +2049,11 @@ td.match-team-logo a {
 .profile-image {
     width: 40px;
     height: 40px;
-    background-image: url(../images/dummy.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .profile {
-    position: relative;
     /* display: none; */
     margin-left: 30px;
 }
@@ -2205,17 +2200,24 @@ section.my-profile {
 .update_img_user {
     position: relative;
     width: 80px;
-    height: 80px;
     margin: 0 auto;
+}
+.update_img_user_img {
+    position: relative;
+    width: 80px;
+    margin: 0 auto;
+    height: 80px;
     border-radius: 50%;
     border: 3px solid #12e1b9;
-    background-image: url("../images/dummy.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
-
 .edit_pan svg {
     height: 12px;
+}
+.update_img_user_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .edit_pan {
