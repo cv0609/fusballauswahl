@@ -2600,7 +2600,7 @@ td.cap-vice {
 }
 
 .my-matches .matches-table th:first-child {
-    text-align: center;
+    text-align: left;
 }
 
 .matche-details-logo {
