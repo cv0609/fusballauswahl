@@ -121,7 +121,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="leagues_cards">
                             <div class="leagues_logo-container">
-                                <div class="leagues_logo leagues_logo1"></div>
+                                <div class="leagues_logo leagues_logo2"></div>
                             </div>
                             <div class="leagues_content">
                                 <h3>Private Ligen</h3>
@@ -155,7 +155,7 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="leagues_cards">
                             <div class="leagues_logo-container">
-                                <div class="leagues_logo leagues_logo1"></div>
+                                <div class="leagues_logo leagues_logo3"></div>
                             </div>
                             <div class="leagues_content">
                                 <h3>Kopf-an-Kopf-Ligen</h3>

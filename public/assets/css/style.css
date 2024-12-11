@@ -499,7 +499,13 @@ img {
 }
 
 .leagues_logo1 {
-    background-image: url("../images/leagues-icons.jpg");
+    background-image: url("../images/leagues-icon1.jpg");
+}
+.leagues_logo2 {
+    background-image: url("../images/leagues-icon2.jpg");
+}
+.leagues_logo3 {
+    background-image: url("../images/leagues-icon3.jpg");
 }
 
 .leagues_content {
@@ -3136,5 +3142,8 @@ div#myTable_info {
     height: 100px;
     width: 100px;
     object-fit: cover;
+}
+.modal-body #cap-message {
+    color: #000;
 }
 
