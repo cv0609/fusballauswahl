@@ -12,10 +12,10 @@
 
           <div class="custom-menu">
             <ul>
-              <li><a class="active" href="{{ route('home') }}">Startseite</a></li>
-              <li><a href="{{ route('game.instructions') }}">Spielanleitung</a></li>
-              <li><a href="{{ route('about.us') }}">Über uns</a></li>
-              <li><a href="{{ route('contact.us') }}">Kontaktieren Sie uns</a></li>
+              <li><a class="{{ Request::is('home') ? 'active' : '' }}" href="{{ route('home') }}">Startseite</a></li>
+              <li><a class="{{ Request::is('game.instructions') ? 'active' : '' }}" href="{{ route('game.instructions') }}">Spielanleitung</a></li>
+              <li><a class="{{ Request::is('about.us') ? 'active' : '' }}" href="{{ route('about.us') }}">Über uns</a></li>
+              <li><a class="{{ Request::is('contact.us') ? 'active' : '' }}" href="{{ route('contact.us') }}">Kontaktieren Sie uns</a></li>
             </ul>
             @if(!Auth::check())
 
