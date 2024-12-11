@@ -1,0 +1,768 @@
+@media screen and (max-width:1600px) {
+    .home_banner_left {
+        padding-left: 50px;
+    }
+    .home_banner_left h1 {
+        font-size: 60px;
+    }
+    .banner-btn {
+        padding: 14px 25px;
+        font-size: 18px;
+    }
+    .home_banner_right {
+        height: 450px;
+    }
+    .home_newsletter_image {
+        height: 500px;
+    }
+    .home_why_choose_us_cards {
+        min-height: 550px;
+    }
+    .profile-side {
+        height: auto;
+    }
+    .user-content-update {
+        margin-top: 20px;
+    }
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .custom-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+        background-color: black;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+        z-index: 100;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .menuToggle .custom-menu {
+        transform: translateX(0);
+        justify-content: flex-start;
+    }
+
+    .custom-menu ul {
+        flex-direction: column;
+
+    }
+
+    .custom-toggler {
+        display: block;
+    }
+
+  
+
+    .custom-closer {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+        text-align: end;
+        z-index: 55;
+        font-size: 21px;
+        height: 20px;
+        width: 20px;
+    }
+    .home_banner_right {
+        height: 550px;
+    }
+    .home_banner_left {
+        padding-left: 25px;
+    }
+    .home_banner_left h1 {
+        font-size: 50px;
+    }
+    .home_banner_left h3 {
+        font-size: 23px;
+    }
+
+    .leagues_logo-container {
+        height: 100px;
+    }
+    .leagues_logo {
+        height: 100px;
+        width: 100px;
+    }
+    .leagues_content h3 {
+        font-size: 22px;
+    }
+    .home_newsletter_image {
+        height: 450px;
+    }
+    .home_why_choose_us_cards {
+        min-height: 635px;
+    }
+    .email-signup-input {
+        width: 50%;
+        font-size: 14px;
+        padding: 11px 15px;
+    }
+    .butn {
+        padding: 11px 10px;
+        font-size: 14px;
+    }
+    .custom-btns {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto 0 auto !important;
+        text-align: center;
+    }
+    .edit_pan {
+        right: -4px;
+    }
+    .after-banner-text {
+        border-radius: 0px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    .home_banner_right {
+        height: 450px;
+    }
+    .home_banner_left {
+        padding-left: 10px;
+    }
+    .home_banner_left h1 {
+        font-size: 45px;
+    }
+    .home_banner_left h3 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+    .banner-btn {
+        padding: 13px 25px;
+        font-size: 17px;
+    }
+    .home_banner_right {
+        height: 350px;
+    }
+    .section-heading {
+        font-size: 50px;
+    }
+    .leaderboard-list p {
+        font-size: 25px;
+    }
+    .leagues_content h3 {
+        font-size: 27px;
+    }
+    .home_why_choose_us_cards_content h3 {
+        font-size: 18px;
+    }
+    .home_why_choose_us_logo-container {
+        height: 100px;
+    }
+    .home_why_choose_us_logo {
+        height: 100px;
+        width: 100px;
+    }
+    .home_why_choose_us_cards_content p {
+        font-size: 15px;
+    }
+
+    .leagues_content h3 {
+        font-size: 20px;
+    }
+    .leagues_cards {
+        min-height: 625px;
+        padding: 20px 10px;
+    }
+    .home_newsletter_image {
+        height: 400px;
+    }
+    .home_why_choose_us_cards {
+        min-height: 550px;
+    }
+    .email-signup-wrapper h3 {
+        font-size: 17px;
+    }
+    .email-signup-input {
+        width: 90%;
+        font-size: 15px;
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+    .butn {
+        padding: 11px 20px;
+        font-size: 15px;
+        margin-top: 15px;
+        border-radius: 25px;
+    }
+    .footer-blocks h3 {
+        font-size: 24px;
+    }
+    .footer-blocks ul li a {
+        font-size: 14px;
+    }
+    .custom-logo-bottom a,.custom-logo a {
+        width: 220px;
+    }
+    .footer-blocks {
+        padding: 15px 0;
+    }
+    .pages-banner {
+        height: 400px;
+    }
+    .footer-pages-content-grp p {
+        font-size: 16px;
+    }
+    .footer-blocks {
+        width: 50%;
+    }
+  }
+
+
+
+  @media screen and (max-width:880px) {
+    .leagues_cards {
+        min-height: 665px;
+        padding: 20px 10px;
+    }
+    .home_why_choose_us_cards {
+        min-height: 625px;
+    }
+    .copyright-wrap {
+        width: 100%;
+    }
+    .copyright-wrap p {
+        text-align: center;
+    }
+    .ssl-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .inner-ul p {
+        font-size: 13px !important;
+    }
+
+
+  }
+
+
+
+
+@media screen and (max-width:767px) {
+    .home_banner_left {
+        padding-left: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .home_banner_store .row {
+        flex-direction: column-reverse;
+    }
+
+    .home_banner_left h1 {
+        font-size: 50px;
+    }
+    .home_banner_left h3 {
+        font-size: 23px;
+    }
+    .banner-btn {
+        padding: 13px 20px;
+        font-size: 16px;
+    }
+    .section-heading {
+        font-size: 50px;
+    }
+    .leaderboard-list p {
+        font-size: 26px;
+    }
+    .home_leaderboard_first {
+        margin-left: 0;
+        text-align: center;
+    }
+    .home_leaderboard_wrap .row {
+        flex-direction: column-reverse;
+    }
+    .home_leaderboard_second {
+        height: 300px;
+        background-size: contain;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+    .leagues_cards {
+        margin-bottom: 30px;
+        min-height: 545px;
+    }
+    .leagues_cards_wrap .row .col-md-4:last-child .leagues_cards {
+        min-height: 0;
+    }
+    .home_why_choose_us_cards {
+        padding: 15px;
+        min-height: 460px;
+        margin-bottom: 30px;
+    }
+    .home_why_choose_us_cards_wrap .row .col-md-4:last-child .home_why_choose_us_cards {
+        min-height: 0;
+        margin-bottom: 0;
+    }
+    .home_newsletter_image {
+        height: 350px;
+    }
+    .py-7 {
+        padding: 40px 0;
+    }
+    .email-signup-input {
+        width: 50%;
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .butn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .copyright-wrap p {
+        font-size: 14px;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+    }
+    .game-instructions-card-image {
+        height: 300px;
+        margin-bottom: 30px;
+        border-radius: 0 20px 0 0;
+    }
+    .down-arrow-container {
+        height: 80px;
+    }
+    .about-card-image {
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .header-pages-cards h3 {
+        font-size: 24px;
+    }
+    .contact-page-form-section {
+        margin-top: 50px;
+    }
+    .contact-page-form-section .row {
+        flex-direction: column-reverse;
+    }
+    .contact-card1-image {
+        height: 350px;
+    }
+    #login-signup {
+        margin: 150px 0 70px 0;
+    }
+    .footer-pages-content-grp {
+        padding: 0;
+    }
+    .footer-pages-content-grp h3 {
+        font-size: 24px;
+    }
+    .footer-pages-content-grp p {
+        font-size: 15px;
+    }
+    .toggle-target a {
+        font-size: 16px;
+    }
+    .toggle-target a {
+        width: 50%;
+    }
+    .fusball_leagues-inner h2 {
+        font-size: 28px;
+    }
+    section.my-profile {
+        padding-top: 60px;
+    }
+    .profile-side {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+    .col-sec {
+        width: 100%;
+    }
+    .user-content-update {
+        border-radius: 20px;
+        padding: 20px 15px;
+    }
+    .home_leagues_section {
+        padding-bottom: 70px;
+    }
+
+}
+
+
+@media screen and (max-width:650px) {
+    .home_why_choose_us_cards {
+        min-height: 495px;
+    }
+    .leagues_cards {
+        min-height: 625px;
+    }
+    .email-signup-input {
+        width: 80%;
+        font-size: 14px;
+        padding: 11px 10px;
+        border-radius: 25px;
+        line-height: normal;
+    }
+    .butn {
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+    .game-instructions-cards-content h3 {
+        font-size: 24px;
+    }
+    .game-instructions-cards-content p {
+        font-size: 16px;
+    }
+    
+
+
+}
+
+
+@media screen and (max-width:575px) {
+    .menu-btn {
+        width: 25px;
+        height: 25px;
+    } 
+    .home_banner_left h1 {
+        font-size: 40px;
+    }
+    .home_banner_left h3 {
+        font-size: 20px;
+    }
+    .banner-btn {
+        padding: 13px 20px;
+        font-size: 15px;
+    }
+    .home_banner_right {
+        height: 350px;
+    }
+    .section-heading {
+        font-size: 40px;
+    }
+    .leaderboard-list p {
+        font-size: 23px;
+    }
+    .leagues_content h3 {
+        font-size: 25px;
+    }
+    .leagues_content p {
+        font-size: 15px;
+    }
+    .home_newsletter_image {
+        height: 300px;
+    }
+    .email-signup-wrapper h3 {
+        font-size: 17px;
+    }
+
+    .home_why_choose_us_cards {
+        min-height: 0;
+    }
+    .leagues_cards {
+        min-height: 0;
+    }
+    .disclaimer h3 {
+        font-size: 22px;
+    }
+    .disclaimer p {
+        font-size: 14px;
+    }
+    .copyright-wrap p {
+        font-size: 13px;
+    }
+    .pages-banner {
+        height: 350px;
+    }
+    .banner-content h1 {
+        font-size: 35px;
+    }
+    .after-banner-text p {
+        font-size: 15px;
+    }
+    .game-instructions-card-image {
+        height: 250px;
+    }
+    .game-instructions-cards-content h3 {
+        font-size: 22px;
+    }
+    .game-instructions-cards-content p {
+        font-size: 15px;
+    }
+    .down-arrow-container {
+        height: 50px;
+    }
+    .header-pages-cards {
+        padding: 0px;
+    }
+    .about-card-image {
+        height: 300px;
+    }
+    .header-pages-cards h3 {
+        font-size: 28px;
+    }
+    .header-pages-cards p {
+        font-size: 15px;
+    }
+    .contact-card1-image {
+        height: 300px;
+    }
+    #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select {
+        font-size: 15px;
+    }
+    #contact button[type="submit"] {
+        font-size: 15px;
+    }
+    #login-signup h3 {
+        font-size: 28px;
+    }
+    #login-signup input[type="text"], #login-signup input[type="email"], #login-signup input[type="tel"], #login-signup input[type="url"], #login-signup textarea {
+        font-size: 15px;
+    }
+    .jump-text {
+        font-size: 15px;
+    }
+    .footer-pages-wrap {
+        padding: 40px 20px;
+    }
+    .footer-pages-content-grp h3 {
+        font-size: 22px;
+    }
+    .footer-pages-content-grp p {
+        font-size: 13px;
+    }
+    .toggle-target a {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .fusball_leagues-inner h2 {
+        font-size: 26px;
+    }
+    .footer-blocks h3 {
+        font-size: 20px;
+    }
+    .home_leagues_section {
+        padding-bottom: 35px;
+    }
+    .modal-body p {
+        font-size: 18px;
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+    .footer-blocks {
+        width: 100%;
+    } 
+    .custom-logo a ,    .custom-logo-bottom a{
+        width: 200px;
+    }
+    .home_banner_right {
+        height: 250px;
+    }
+    .home_banner_left h1 {
+        font-size: 30px;
+    }
+    .home_banner_left h3 {
+        font-size: 17px;
+    }
+    .banner-btn {
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+    .section-heading {
+        font-size: 30px;
+    }
+    .leaderboard-list p {
+        font-size: 18px;
+    }
+    .leagues_content h3 {
+        font-size: 23px;
+    }
+    .home_newsletter_image {
+        height: 250px;
+    }
+    .email-signup-wrapper h3 {
+        font-size: 16px;
+    }
+    .email-signup-input {
+        width: 90%;
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    .butn {
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-left: 0px;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+    .disclaimer h3 {
+        font-size: 20px;
+    }
+    .disclaimer p {
+        font-size: 13px;
+    }
+    .social-icons {
+        height: 40px;
+        width: 40px;
+    }
+    .social-ikons {
+        width: 16px;
+        height: 16px;
+    }
+    .footer-blocks h3 {
+        font-size: 22px;
+    }
+    .copyright-wrap p {
+        font-size: 12px;
+    }
+    .pages-banner {
+        height: 300px;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+    .after-banner-text p {
+        font-size: 14px;
+    }
+    .game-instructions-card-image {
+        height: 200px;
+    }
+    .game-instructions-cards-content h3 {
+        font-size: 20px;
+        line-height:1.3;
+    }
+    .game-instructions-cards-content p {
+        font-size: 14px;
+    }
+    .about-card-image {
+        height: 250px;
+    }
+    .header-pages-cards h3 {
+        font-size: 26px;
+    }
+    .header-pages-cards p {
+        font-size: 14px;
+    }
+    .contact-card1-image {
+        height: 250px;
+    }
+    #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact select {
+        font-size: 14px;
+    }
+    #contact button[type="submit"] {
+        font-size: 14px;
+    }
+    #login-signup h3 {
+        font-size: 26px;
+    }
+    #login-signup input[type="text"], #login-signup input[type="email"], #login-signup input[type="tel"], #login-signup input[type="url"], #login-signup textarea {
+        font-size: 14px;
+    }
+    .jump-text {
+        font-size: 14px;
+    }
+    .footer-pages-content-grp h3 {
+        font-size: 20px;
+    }
+    .footer-pages-content-grp p {
+        font-size: 13px;
+    }
+    .footer-pages-wrap {
+        padding: 40px 10px;
+    }
+    .privacy-policy .banner-content h1 ,  .terms-conditions .banner-content h1{
+        font-size: 21px;
+    }
+    .custom-btns {
+        font-size: 13px;
+    }
+    .leagues-table td {
+        padding: 20px 15px !important;
+    }
+    .fusball_leagues tbody tr td p {
+        font-size: 14px;
+    }
+    .plyr-headr .team-logo span {
+        font-size: 17px;
+    }
+    .plyr-headr .match-details h6 {
+        font-size: 16px;
+    }
+    .plyr-headr .match-details p {
+        font-size: 15px;
+    }
+    .fusball_leagues-inner h2 {
+        font-size: 24px;
+    }
+    .plyr-headr .match-details p {
+        margin-bottom: 0px;
+    }
+    .team-view-header {
+        padding: 20px 10px;
+    }
+    .c-details h6 {
+        font-size: 14px;
+        max-width: 90px;
+    }
+    .c-details p {
+        font-size: 12px;
+    }
+    .c-logo {
+        font-size: 12px;
+    }
+    .my-team-page .team-view-table td:nth-child(2) {
+        text-align: left;
+    }
+    .my-team-page .team-view-table td {
+        padding: 35px 15px !important;
+    }
+    .my-team-page thead tr th:nth-child(2) {
+        text-align: left;
+    }
+    .user_name h3 {
+        font-size: 16px;
+    }
+    .update_img_user {
+        width: 65px;
+        height: 65px;
+    }
+    .content-bar a {
+        font-size: 14px;
+    }
+    .edit_pan {
+        width: 20px;
+        height: 20px;
+        right: -4px;
+        border-radius: 50%;
+        font-size: 14px;
+    }
+    .user-content-box button {
+        padding: 11px 25px;
+    }
+    td.match-team-logo h6 {
+        font-size: 14px !important;
+    }
+    .leagues-table td h6 {
+        font-size: 14px;
+    }
+    .modal-body p {
+        font-size: 16px;
+    }
+    .modal-images-inner {
+        height: 80px;
+        width: 80px;
+    }
+
+}
