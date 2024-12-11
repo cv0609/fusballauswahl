@@ -1794,7 +1794,7 @@ table tr:nth-child(odd):hover {
 
     width: 100%;
     overflow-x: auto;
-    border-radius: 14px;
+    border-radius:0 0 14px 14px;
 }
 
 .fusball_leagues-inner-content table th {
@@ -1905,6 +1905,7 @@ table tr td a::before {
 
 table tr {
     position: relative;
+    cursor: pointer;
 }
 
 .tab-content {

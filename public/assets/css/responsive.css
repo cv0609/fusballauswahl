@@ -150,11 +150,17 @@
     .after-banner-text {
         border-radius: 0px;
     }
+
     .home_leagues_section {
         padding-bottom: 80px;
     }
 }
 
+@media screen and (max-width:1024px) {
+    .about-card-image {
+        margin-bottom: 30px;
+    }
+}
 
 @media screen and (max-width:991px) {
     .home_banner_right {
@@ -272,9 +278,7 @@
         font-size: 16px;
     }
 
-    .footer-blocks {
-        width: 50%;
-    }
+
 
 }
 
@@ -490,10 +494,14 @@
     .home_leagues_section {
         padding-bottom: 70px;
     }
+
     .home_leagues_section {
         padding-bottom: 60px;
     }
 
+    .footer-blocks {
+        width: 50%;
+    }
 }
 
 
@@ -711,19 +719,27 @@
     .modal-body p {
         font-size: 18px;
     }
+
     .dt-layout-cell.dt-layout-start {
         display: block;
         margin-bottom: 15px;
         text-align: center;
     }
+
     .dt-layout-cell.dt-layout-end {
         display: block;
-         float: none;
+        float: none;
         text-align: center;
         margin-bottom: 20px;
     }
-    .inline-list h3 a, .inline-list h3 {
+
+    .inline-list h3 a,
+    .inline-list h3 {
         font-size: 25px;
+    }
+
+    fieldset:last-child {
+        text-align: center;
     }
 }
 
@@ -1007,12 +1023,16 @@
     }
 
     .avatar .dropdown {
-        width: 100%;        
+        width: 100%;
     }
-    .inline-list h3 a, .inline-list h3 {
+
+    .inline-list h3 a,
+    .inline-list h3 {
         font-size: 18px;
     }
-    .alert-success,.alert-danger {
+
+    .alert-success,
+    .alert-danger {
         font-size: 12px;
     }
 }

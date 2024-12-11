@@ -38,11 +38,11 @@
 
             <div class="header-pages-cards">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="about-card-image about-card1-image bg-center bg-cover bg-no-repeat ">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="header-pages-cards-content">
                             <h3>
                                 Unsere Mission
@@ -76,11 +76,11 @@
 
             <div class="header-pages-cards">
                 <div class="row flex-row-reverse">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="about-card-image about-card2-image bg-center bg-cover bg-no-repeat">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="header-pages-cards-content">
                             <h3>
                                 Was wir tun
@@ -155,11 +155,11 @@
 
             <div class="header-pages-cards">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="about-card-image about-card3-image bg-center bg-cover bg-no-repeat">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="header-pages-cards-content">
                             <h3>
                                 Unsere Werte
@@ -219,11 +219,11 @@
 
             <div class="header-pages-cards">
                 <div class="row flex-row-reverse">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="about-card-image about-card4-image bg-center bg-cover bg-no-repeat">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="header-pages-cards-content">
                             <h3>
                                 Unser Team
@@ -257,11 +257,11 @@
 
             <div class="header-pages-cards">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="about-card-image about-card5-image bg-center bg-cover bg-no-repeat">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="header-pages-cards-content">
                             <h3>
                                 Warum Fussballauswahl wählen?
@@ -312,11 +312,11 @@
 
             <div class="header-pages-cards">
                 <div class="row flex-row-reverse">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="about-card-image about-card6-image bg-center bg-cover bg-no-repeat">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="header-pages-cards-content">
                             <h3>
                                 Schließe dich uns auf dieser Reise an
