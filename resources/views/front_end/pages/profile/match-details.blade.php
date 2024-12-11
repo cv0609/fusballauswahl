@@ -1,5 +1,9 @@
 @extends('front_end.layout.main')
 @section('content')
+@php
+   $PointCalculationService = app(App\Services\PointCalculationService::class);
+   use Carbon\Carbon;
+@endphp
 <!--Leagues Pages Banner Section Start -->
 <section class="pages-banner leagues-pages  bg-cover bg-no-repeat">
     <div class="container">
