@@ -52,7 +52,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="my-matches.html">
+                      <a href="{{ route('profile.matches') }}">
                         <div
                           class="profile-dropdown-options profile-image-stadium"
                         ></div>
