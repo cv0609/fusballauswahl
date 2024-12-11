@@ -52,12 +52,12 @@
                             @endphp
                             <tr class="matche-main" data-fixture-id="{{ $match->fixture_id ?? ''}}" data-league-id="{{ $match->league->league_id ?? ''}}">
                                 <td class="match-team-logo">
-                                    <a href="match-details">
+                                    <!-- <a href="match-details"> -->
                                         <!-- <div class="my-match-team-logo-inner my-match-team-logo-inner1"></div> -->
                                         <img src="{{ $match->home_team_logo ?? '' }}" alt="{{ $match->home_team_name ?? '' }} logo" alt="team-logo-3">
 
                                         <h6>{{ $match->home_team_name ?? '' }}</h6>
-                                    </a>
+                                    <!-- </a> -->
                                 </td>
                                 <td>
                                 <h6>{{ $match->venue_name ?? '' }}</h6>
