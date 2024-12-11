@@ -297,7 +297,7 @@
          var match_id = button.find('.team_captain').data('match_id');
          var team_id = button.find('.team_captain').data('team_id');
          var player_id = button.find('.team_captain').data('player_id');
-          console.log(league_id); return false;
+          
          if (button.hasClass('captain-plus')) {
             var visibleMinusCount = $('.captain-minus').not('.d-none').length;
 
