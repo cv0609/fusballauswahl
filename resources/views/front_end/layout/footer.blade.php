@@ -15,7 +15,7 @@
                 <a href="{{ route('home') }}"> Startseite </a>
               </li>
               <li>
-                <a href="game-instructions"> Spielanleitung </a>
+                <a href="{{ route('game.instructions') }}"> Spielanleitung </a>
               </li>
               <li>
                 <a href="{{ route('about.us') }}"> Über uns </a>

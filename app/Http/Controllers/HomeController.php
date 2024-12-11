@@ -69,4 +69,8 @@ class HomeController extends Controller
      public function privacyPolicy(){
        return view('front_end.pages.privacy-policy');
      }
+
+     public function gameInstructions(){
+      return view('front_end.pages.game-instructions');
+    }
 }

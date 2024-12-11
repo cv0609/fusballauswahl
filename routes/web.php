@@ -32,6 +32,7 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('/how-to-play', [HomeController::class, 'howToPlay'])->name('how.to.play');
 Route::get('/terms-condition', [HomeController::class, 'termsCondition'])->name('terms.condition');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy.policy');
+Route::get('/game-instructions', [HomeController::class, 'gameInstructions'])->name('game.instructions');
 
 
 Route::get('/leagues', [FootballController::class, 'getLeague'])->name('leagues');
