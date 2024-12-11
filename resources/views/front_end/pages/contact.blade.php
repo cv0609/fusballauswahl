@@ -65,26 +65,37 @@
                         <div class="col-md-5">
                             <div class="header-pages-cards-content">
                                 <div class="form-wrapper">
-                                    <form id="contact" action="#" method="post" onsubmit="return validateContactForm()">
+                                @if(Session::has('success'))
+                               <span class="alert alert-success text-center" style="width:100%;">{{ Session::get('success') }}</span>
+                            @endif
+                                    <form action="{{ route('contact.save') }}" method="post" id="contactForm">
                                         <fieldset>
                                             <input class="contact-form" placeholder="Vollständiger Name" type="text"
-                                                tabindex="1" required minlength="2" maxlength="100">
+                                                tabindex="1"  minlength="2" maxlength="100" name="full_name" id="full_name">
+                                            <p class="text-danger d-none" id="nameError"></p>
+
                                         </fieldset>
                                         <fieldset>
                                             <input class="contact-email" placeholder="E-Mail-Adresse" type="email"
-                                                tabindex="2" required>
+                                                tabindex="2" name="email" id="email" value="{{ old('email') }}">
+                                          <p class="text-danger d-none" id="emailError"></p>
+
                                         </fieldset>
                                         <fieldset>
                                             <input class="contact-email" placeholder="Betreff" type="text" tabindex="3"
-                                                required>
+                                                name="subject" id="subject" value="{{ old('subject') }}">
+                                    <p class="text-danger d-none" id="subjectError"></p>
+
                                         </fieldset>
 
                                         <fieldset>
                                             <textarea name="message" class="message" placeholder="Nachricht..." required
-                                                minlength="10" maxlength="1000"></textarea>
+                                                minlength="10" maxlength="1000">{{ old('message') }}</textarea>
+                                    <p class="text-danger d-none" id="messageError"></p>
+
                                         </fieldset>
                                         <fieldset>
-                                            <button name="submit" type="submit" class="contact-submit butn"
+                                            <button type="button" id="contact-btn" class="contact-submit butn"
                                                 data-submit="...Sending">
                                                 Absenden </button>
                                         </fieldset>
@@ -144,4 +155,69 @@
     </div>
 </section>
 <!-- Disclaimer Section Start -->
+@endsection
+
+
+@section('custom-script')
+
+<script>
+    $(document).ready(function () {
+        var response = 'You have to complete the CAPTCHA.';
+        @if($errors->has('g-recaptcha-response'))
+            $('#captchaModal').modal('show');
+            $('#cap-message').text(response);
+        @endif
+
+
+        $('#contact-btn').on('click', function() {
+            var valid = true;
+
+            $('.text-danger').addClass('d-none').css('font-size','15px');
+
+            if ($('#full_name').val().trim() === '') {
+                $('#nameError').removeClass('d-none').text('Full name field is required.');
+                valid = false;
+            }
+
+            var email = $('#email').val().trim();
+            
+            if($('#email').val().trim() === ''){
+                $('#emailError').removeClass('d-none').text('Email field is required.');
+                valid = false;
+            }
+
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if ($('#email').val().trim() != '' && !emailPattern.test(email)) {
+                $('#emailError').removeClass('d-none').text('Please enter a valid email address.');
+                valid = false;
+            }
+
+            if ($('#subject').val().trim() === '') {
+                $('#subjectError').removeClass('d-none').text('Subject field is required.');
+                valid = false;
+            }
+
+            if ($('#message').val().trim() === '') {
+                $('#messageError').removeClass('d-none').text('Message field is required.');
+                valid = false;
+            }
+
+            if (!$('#agree').is(':checked')) {
+                $('#agreeError').removeClass('d-none').text('You must agree to the terms.');
+                valid = false;
+            }
+
+            if (valid) {
+                $('#contactForm').submit();
+            }
+        });
+
+
+
+
+
+    });
+</script>
+
+
 @endsection
