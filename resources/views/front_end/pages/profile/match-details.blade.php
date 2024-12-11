@@ -40,7 +40,7 @@
             </div>
             <!-- Component Start -->
             <h1 class="font-medium">
-                My players
+               Mein Team
             </h1>
             <div class="flex flex-col mt-6">
                 <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -70,7 +70,7 @@
                                 <table class="table table-light table-striped table-hover table-sm">
                                     <thead class=" text-uppercase">
                                         <tr>
-                                            <th scope="col">Logo</th>
+                                            <th scope="col">Team</th>
                                             <th scope="col">Name</th>
                                             <th scope="col">Position</th>
                                             <th scope="col">Punktzahl</th>
