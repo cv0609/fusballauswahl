@@ -3070,3 +3070,15 @@ fieldset {
 .modal-footer{
     border-top: 1px solid #12e1b9;
 }
+
+/* Fixes */
+
+.alert-success {
+    padding: 8px;
+    font-size: 14px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
