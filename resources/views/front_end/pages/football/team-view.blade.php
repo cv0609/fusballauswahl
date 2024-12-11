@@ -109,7 +109,7 @@
                     </table>
                 </div>
                 <div class="team-btns">
-                    <a href="#" class="next-btn">Speichern</a>
+                    <a href="#" id="save-team-btn" class="next-btn">Speichern</a>
                 </div>
             </div>
         </div>
