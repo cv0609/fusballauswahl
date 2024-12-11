@@ -22,7 +22,7 @@
 <!--Leagues Pages Banner Section End -->
 
 <!-- Leagues Content Section Start -->
-<section class="fusball_leagues team-view-page">
+<section class="fusball_leagues team-view-page my-team-page">
     <div class="container">
         <div class="fusball_leagues-inner">
             <div class="back-btn">
@@ -81,7 +81,7 @@
                                    <h6>{{ $value['player_name'] }}</h6>
                                    <!-- <span>41 Pt</span> -->
                                 </td>
-                                <td>
+                                <td class="cap-vice">
                                     <span class="c-logo">C</span>
                                     <p class="team_captain" data-league_id = "{{ $value['league_id'] }}" data-match_id = "{{ $value['match_id'] }}" data-team_id = "{{ $value['team_id'] }}" data-player_id = "{{ $value['player_id'] }}" data-already_captain = "{{ $value['already_captain'] ?? '' }}">0.55%</p>
                                     <button class="plus player-toggle captain-plus" data-event="cap_plus">
@@ -91,7 +91,7 @@
                                              <i class="fa fa-minus" aria-hidden="true"></i>
                                           </button>
                                 </td>
-                                <td>
+                                <td class="cap-vice">
                                     <span class="c-logo">VC</span>
                                     <p class="team_captain team_vice_captain" data-league_id = "{{ $value['league_id'] }}" data-match_id = "{{ $value['match_id'] }}" data-team_id = "{{ $value['team_id'] }}" data-player_id = "{{ $value['player_id'] }}">0.37%</p>
 

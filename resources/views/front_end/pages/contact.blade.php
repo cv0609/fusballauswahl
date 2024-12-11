@@ -75,7 +75,7 @@
                                                 tabindex="2" required>
                                         </fieldset>
                                         <fieldset>
-                                            <input class="contact-email" placeholder="Betreff" type="email" tabindex="3"
+                                            <input class="contact-email" placeholder="Betreff" type="text" tabindex="3"
                                                 required>
                                         </fieldset>
 
