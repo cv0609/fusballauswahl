@@ -68,7 +68,8 @@
                                 @if(Session::has('success'))
                                <span class="alert alert-success text-center" style="width:100%;">{{ Session::get('success') }}</span>
                             @endif
-                                    <form action="{{ route('contact.save') }}" method="post" id="contactForm">
+                                    <form action="{{ route('contact.save') }}" method="post" id="contact">
+                                        @csrf
                                         <fieldset>
                                             <input class="contact-form" placeholder="Vollständiger Name" type="text"
                                                 tabindex="1"  minlength="2" maxlength="100" name="full_name" id="full_name">
@@ -90,7 +91,7 @@
 
                                         <fieldset>
                                             <textarea name="message" class="message" placeholder="Nachricht..." required
-                                                minlength="10" maxlength="1000">{{ old('message') }}</textarea>
+                                                minlength="10" id="message" maxlength="1000">{{ old('message') }}</textarea>
                                     <p class="text-danger d-none" id="messageError"></p>
 
                                         </fieldset>
@@ -202,13 +203,13 @@
                 valid = false;
             }
 
-            if (!$('#agree').is(':checked')) {
-                $('#agreeError').removeClass('d-none').text('You must agree to the terms.');
-                valid = false;
-            }
+            // if (!$('#agree').is(':checked')) {
+            //     $('#agreeError').removeClass('d-none').text('You must agree to the terms.');
+            //     valid = false;
+            // }
 
             if (valid) {
-                $('#contactForm').submit();
+                $('#contact').submit();
             }
         });
 
@@ -218,6 +219,5 @@
 
     });
 </script>
-
 
 @endsection
