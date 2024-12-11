@@ -292,11 +292,11 @@
 
       $(document).on('click', '.player-toggle', function() {
          var button = $(this);
-
-         var league_id = button.find('.team_captain').data('league_id');
-         var match_id = button.find('.team_captain').data('match_id');
-         var team_id = button.find('.team_captain').data('team_id');
-         var player_id = button.find('.team_captain').data('player_id');
+         var parent = button.closest('td');
+         var league_id = parent.find('.team_captain').data('league_id');
+         var match_id = parent.find('.team_captain').data('match_id');
+         var team_id = parent.find('.team_captain').data('team_id');
+         var player_id = parent.find('.team_captain').data('player_id');
           
          if (button.hasClass('captain-plus')) {
             var visibleMinusCount = $('.captain-minus').not('.d-none').length;
