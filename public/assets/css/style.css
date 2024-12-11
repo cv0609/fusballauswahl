@@ -69,6 +69,7 @@ a {
 
 button,
 input[type=text],
+input[type=number],
 input[type=tel],
 input[type=submit],
 input[type=password],
@@ -2327,7 +2328,7 @@ span.edit_pan i {
     width: auto;
     padding: 11px 44px;
     display: inline-block;
-    margin-left: 1rem;
+    margin-left: 0;
     margin-right: 1rem;
     margin-top: 20px;
     background-color: #12e1b9;
@@ -2549,7 +2550,9 @@ td.player-name p {
     position: relative;
     font-family: NeueMachina;
 }
-
+td.cap-vice {
+    position: relative;
+}
 .my-team-page .player-toggle {
     border-radius: 50%;
     background: transparent;
@@ -2561,7 +2564,7 @@ td.player-name p {
     right: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 10px;
+    margin-top: 15px;
     border-color: #12e1b9 !important;
 }
 
@@ -3073,7 +3076,7 @@ fieldset {
 
 /* Fixes */
 
-.alert-success {
+.alert-success,.alert-danger {
     padding: 8px;
     font-size: 14px;
     position: absolute;
@@ -3081,4 +3084,56 @@ fieldset {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
 }
+.dt-layout-cell.dt-layout-start {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.dt-layout-cell.dt-layout-end {
+    display: inline-block;
+    float: right;
+}
+.dt-length label {
+    color: #fff;
+    margin-left: 15px;
+}
+.dt-search label {
+    color: #fff;
+    margin-right: 15px;
+}
+.leagues .league-logo img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+div#myTable_info {
+    color: #fff;
+    margin-top: 15px;
+}
+.dt-paging {
+    margin-top: 15px;
+}
+.dt-paging-button {
+    border: none;
+    padding: 5px 10px;
+    margin-inline: 5px;
+}
+.modal-body span {
+    display: block;
+    width: 100%;
+}
+.modal-body {
+    text-align: center;
+}
+.modal-body #error-message {
+    color: #000;
+    margin-top: 20px;
+}
+.modal-body span svg {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
