@@ -73,31 +73,72 @@ return [
         ],
     ],
 ],
- 'about-us' => [
+'about-us' => [
     'banner_title' => 'Über uns',
-    'welcome_text' => 'Willkommen bei <strong>Fussballauswahl</strong>, dem ultimativen Ziel für leidenschaftliche Fußballfans und Fantasy-Sportbegeisterte. Wir sind ein engagiertes Team von Fußballliebhabern, Technik-Experten und Sportenthusiasten, die es sich zur Aufgabe gemacht haben, den Nervenkitzel des Spiels direkt auf dein Smartphone zu bringen. Ob du ein treuer Anhänger der Österreichischen Bundesliga bist oder gerade erst den Spaß am Fantasy-Fußball entdeckst – wir haben eine Plattform geschaffen, auf der du dein Fußballwissen zeigen, mit Freunden konkurrieren und den Sport auf ganz neue Weise genießen kannst.',
+    'welcome_message_start' => 'Willkommen bei',
+    'platform_name' => 'Football Selection',
+    'welcome_message_end' => "der ultimativen Anlaufstelle für leidenschaftliche Fußballfans und Fantasy-Sport-Enthusiasten. Wir sind ein engagiertes Team von Fußballliebhabern, Technikexperten und Sportbegeisterten mit der Mission, den Nervenkitzel des Spiels direkt auf Ihr Smartphone zu bringen. Ob Sie nun ein treuer Anhänger der Österreichischen Bundesliga sind oder gerade erst die Freude am Fantasy-Fußball entdecken – wir haben eine Plattform geschaffen, auf der Sie Ihr Fußballwissen zeigen, sich mit Freunden messen und den Sport auf ganz neue Weise genießen können.",
+    'our_mission' => 'Unsere Mission',
 
-    'mission_title' => 'Unsere Mission',
+    'mission_content' => 'Bei Football Selection ist unsere Mission einfach: Wir wollen das beste und spannendste Fantasy-Fußball-Erlebnis rund um den österreichischen Fußball bieten. Wir glauben, dass Fußball mehr als nur ein Spiel ist - es ist eine Leidenschaft, die Menschen auf der ganzen Welt verbindet. Mit unserer Plattform möchten wir Fans zusammenbringen, freundschaftliche Konkurrenz fördern und es den Spielern ermöglichen, ihre Fähigkeiten und ihr Wissen über das Spiel in dynamischen und spannenden Fantasy-Ligen unter Beweis zu stellen.',
 
-    'mission_text_1' => 'Bei <strong>Fussballauswahl</strong> ist unsere Mission ganz einfach: <strong>Wir glauben, dass Fußball mehr ist als nur ein Spiel – er ist eine Leidenschaft, die Menschen auf der ganzen Welt verbindet. Mit unserer Plattform wollen wir Fans zusammenbringen, freundschaftliche Konkurrenz fördern und den Spielern ermöglichen, ihre Fähigkeiten und ihr Wissen über das Spiel in dynamischen und spannenden Fantasy-Ligen unter Beweis zu stellen.',
+    'mission_content2' => 'Wir sind stolz darauf, einen Raum zu schaffen, in dem jeder Spieler, sei es ein Anfänger oder ein erfahrener Fantasy-Fußball-Manager, den Nervenkitzel erleben kann, sein eigenes Team zu managen, strategische Entscheidungen zu treffen und um den Sieg in einer unterhaltsamen und aufregenden Umgebung zu kämpfen.',
+
+    'what_we_do' => 'Was wir tun',
+    'what_we_do_content' => "Football Selection basiert auf der Leidenschaft für den österreichischen Fußball. Unsere Plattform ermöglicht es den Nutzern, Fantasy-Fußball-Ligen zu erstellen, beizutreten und sich zu engagieren, während sie auf Echtzeit-Statistiken, Nachrichten und Updates aus der Österreichischen Bundesliga zugreifen. So funktioniert es:",
+
+    'customizable_leagues' => 'Anpassbare Ligen',
+
+    'customizable_leagues_content' => 'Ob Sie lieber in entspannten privaten Ligen mit Freunden spielen oder in intensiven Kopf-an-Kopf-Herausforderungen konkurrieren, wir bieten verschiedene Ligamöglichkeiten, die zu jedem Spielstil passen. Sie können Ihre eigene Liga erstellen, öffentlichen Ligen beitreten oder andere Spieler direkt herausfordern, um das Erlebnis noch spannender zu machen.',
+
+    'exciting_gameplay' => 'Spannendes Gameplay',
+    'exciting_gameplay_content' => 'Wir bieten eine benutzerfreundliche, intuitive Plattform, auf der Sie echte Spieler auswählen, Ihr Fantasy-Fußball-Team managen und Ihre Leistung in Echtzeit verfolgen können. Je mehr Sie das Spiel und die Liga verfolgen, desto wettbewerbsfähiger und lohnenswerter wird das Erlebnis.',
+
+    'detailed_statistics' => 'Detaillierte Statistiken und Einblicke',
+
+    'detailed_statistics_content' => 'Von Spielergebnissen bis hin zu Ligastandings – wir bieten alle Daten, die Sie benötigen, um fundierte Entscheidungen zu treffen. Unsere Plattform bietet stets aktuelle Statistiken, Nachrichten und Updates, um Sie immer auf dem neuesten Stand zu halten.',
+
+    'for_all' => 'Für Jeden',
+
+    'for_all_content' => 'Wir heißen Fans aus allen Hintergründen und mit allen Fähigkeiten willkommen. Ob Sie langjährige Anhänger des österreichischen Fußballs sind oder neu im Fantasy-Fußball, Football Selection macht es jedem leicht, an dem Spaß teilzunehmen.',
     
-    'mission_text_2' => 'Wir sind stolz darauf, einen Raum zu schaffen, in dem jeder Spieler, ob Anfänger oder erfahrener Fantasy-Fußball-Manager, den Nervenkitzel erleben kann, sein eigenes Team zu managen, strategische Entscheidungen zu treffen und in einer unterhaltsamen und spannenden Umgebung um den Sieg zu kämpfen.',
-    
-    'values_title' => 'Unsere Werte',
-    'values_list' => [
-        'inclusive' => 'Inklusiv: Wir möchten, dass sich jeder willkommen fühlt...',
-        'engaging' => 'Fesselnd: Wir wissen, wie wichtig es ist, dich zu begeistern...',
-        'transparent' => 'Transparent: Wir wollen eine Gemeinschaft aufbauen...',
-        'passionate' => 'Leidenschaftlich: Wie du sind auch wir leidenschaftliche Fußballfans...',
+    'our_values' => 'Unsere Werte',
+    'values_content' => 'Bei Football Selection glauben wir an ein Erlebnis, das:',
+    'inclusive' => 'Inklusiv',
+    'inclusive_content' => 'Wir möchten, dass sich jeder willkommen fühlt, unabhängig vom Erfahrungslevel. Fantasy-Fußball sollte für alle Spaß machen.',
+    'engaging' => 'Fesselnd',
+    'engaging_content' => 'Wir wissen, wie wichtig es ist, Sie zu fesseln, weshalb wir unsere Plattform kontinuierlich mit neuen Funktionen und Inhalten aktualisieren.',
+    'transparent' => 'Transparent',
+    'transparent_content' => 'Wir möchten eine Community aufbauen, die auf Vertrauen basiert, und stellen transparente Daten und Informationen zur Verfügung, um Ihnen zu helfen, die besten Entscheidungen zu treffen.',
+    'passionate' => 'Leidenschaftlich',
+    'passionate_content' => 'Wie Sie sind auch wir leidenschaftliche Fußballfans. Unsere Liebe zum Spiel treibt uns an, die Plattform ständig zu verbessern.',
+    'our_team' => 'Unser Team',
+    'team_content' => 'Football Selection wird von einem vielfältigen Team von engagierten Fachleuten geführt, die alle eine tiefe Leidenschaft für Fußball und Technologie teilen. Von Datenanalysten bis hin zu Softwareentwicklern, Content-Erstellern und Kundenservice – wir arbeiten alle auf ein gemeinsames Ziel hin: das unterhaltsamste und dynamischste Fantasy-Fußball-Erlebnis für unsere Nutzer zu schaffen.',
+
+    'team_content2' => 'Auch wenn wir aus verschiedenen Bereichen kommen, vereint uns unsere Liebe zum Fußball in allem, was wir tun. Wir arbeiten unermüdlich hinter den Kulissen, um sicherzustellen, dass jeder Aspekt der Plattform – vom Nutzererlebnis bis zu den Live-Statistiken – reibungslos funktioniert. Unser Engagement für Exzellenz macht Football Selection zu einer herausragenden Anlaufstelle für den österreichischen Fantasy-Fußball.',
+
+    'why_choose' => 'Warum Football Selection wählen?',
+
+    'focus_on_football' => 'Fokus auf österreichischen Fußball',
+
+    'focus_on_football_content' => 'Wir bieten ein authentisches, tiefgehendes Fantasy-Fußball-Erlebnis rund um die Österreichische Bundesliga und die österreichische Fußballkultur. Ob Sie Fan von FC Red Bull Salzburg oder SK Puntigamer Sturm Graz sind, wir bieten einen aufregenden Raum, um Ihr Team zu managen und Ihre Lieblingsspieler zu verfolgen.',
+
+    'realtime_statistics' => 'Echtzeit-Statistiken und Einblicke',
+
+    'realtime_statistics_content' => 'Wir liefern Ihnen aktuelle Statistiken und Spielerinformationen direkt vom Spielfeld, um Ihnen bei der strategischen Entscheidungsfindung zu helfen. Bleiben Sie auf dem neuesten Stand mit wichtigen Leistungskennzahlen, Live-Daten und detaillierten Spieleranalysen.',
+
+    'fair_play' => 'Fair Play und Integrität',
+    'fair_play_content' => 'Wir glauben an fairen Wettbewerb und streben danach, allen Nutzern ein gleichberechtigtes Spielfeld zu bieten. Unsere Plattform ist darauf ausgelegt, eine sichere, vertrauenswürdige und spaßige Umgebung für alle Teilnehmer zu schaffen.',
+    'join_us' => 'Schließen Sie sich uns auf dieser Reise an',
+    'join_us_content' => 'Bei Football Selection sind wir mehr als nur eine Fantasy-Fußball-Plattform – wir sind eine Community von Fußballliebhabern, Strategen und Wettbewerbern. Wir laden Sie ein, sich uns anzuschließen, Ihr Team zu erstellen, Rivalen herauszufordern und den Nervenkitzel zu erleben, Ihr eigenes Fantasy-Fußball-Team im Bereich des österreichischen Fußballs zu managen.',
+    'join_us_content2' => 'Danke, dass Sie Teil unserer Reise sind. Gemeinsam machen wir jeden Spieltag aufregender, jede Entscheidung bedeutungsvoller und jeden Sieg lohnenswerter.',
+    'disclaimer' => [
+        'title' => 'Haftungsausschluss',
+        'content1' => 'Diese Website und ihre Fantasy-Fußball-Dienste sind ausschließlich für Personen ab dem gesetzlichen Alter (18 Jahre oder älter) gemäß den geltenden Gesetzen vorgesehen. Durch die Nutzung unserer Plattform bestätigen Sie, dass Sie die Altersanforderungen für die Teilnahme an Fantasy-Fußball-Spielen erfüllen.',
+        'content2' => 'Unsere Plattform dient ausschließlich Unterhaltungszwecken und ist nicht mit offiziellen Fußball-Ligen, einschließlich der Österreichischen Bundesliga oder anderen professionellen Fußballverbänden, verbunden. Alle Spielerstatistiken, Teamdaten und Spielergebnisse dienen nur zu Illustrationszwecken und spiegeln nicht immer reale Ergebnisse wider.',
+        'content3' => 'Wir fördern, unterstützen oder bieten keine Form von Glücksspiel an. Die Teilnahme an Fantasy-Fußball ist keine Wettform, und von den Nutzern wird nicht verlangt, Geld zu setzen, um teilzunehmen. Alle Aktivitäten auf der Website sind für Spaß und freundliche Wettbewerbe unter den Nutzern gedacht.',
+        'content4' => 'Wir setzen uns dafür ein, ein sicheres und angenehmes Erlebnis zu gewährleisten, und ermutigen zu einer verantwortungsvollen Teilnahme.',
     ],
-    'team_title' => 'Unser Team',
-    'team_text_1' => '<strong>Fussballauswahl</strong> wird von einem vielfältigen Team betrieben...',
-    'team_text_2' => 'Auch wenn wir aus verschiedenen Bereichen kommen...',
-    'disclaimer_title' => 'Haftungsausschluss',
-    'disclaimer_text' => [
-        'age_restriction' => 'Diese Website und ihre Fantasy-Fußball-Dienste sind ausschließlich für Personen ab dem gesetzlichen Alter...',
-        'entertainment_only' => 'Unsere Plattform dient ausschließlich Unterhaltungszwecken...',
-        'responsible_participation' => 'Wir setzen uns dafür ein, ein sicheres und angenehmes Erlebnis zu gewährleisten...',
-    ],
- ],
+]
+
 ];
