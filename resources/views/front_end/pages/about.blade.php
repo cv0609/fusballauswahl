@@ -5,7 +5,7 @@
     <div class="container">
         <div class="banner-content">
             <h1>
-                Über uns
+                @lang('message.about-us.banner_title')
             </h1>
         </div>
     </div>
