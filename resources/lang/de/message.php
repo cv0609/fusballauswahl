@@ -299,6 +299,32 @@ return [
     'section_16_title' => '16. Kontaktinformationen',
     'section_16_text' => 'Für weitere Anfragen kontaktieren Sie uns bitte per E-Mail.',
     'email_label' => 'E-Mail',
-    
+],
+'game_instructions' => [
+    'title' => 'Spielanleitung',
+    'intro_text' => 'Willkommen bei Fussballauswahl, deiner ultimativen Plattform für österreichischen Fantasy-Fußball! Ob du ein Anfänger oder ein erfahrener Fantasy-Fußball-Manager bist, wir haben es einfach gemacht, einzutauchen und zu starten. Hier ist eine Schritt-für-Schritt-Anleitung, wie du loslegen kannst:',
+    'step1_title' => 'Schritt 1: Erstelle dein Konto',
+    'step1_signup' => 'Anmelden: Gehe auf die Startseite von Fussballauswahl und klicke auf "Anmelden", um ein Konto zu erstellen. Du kannst dich mit deiner E-Mail-Adresse oder über soziale Medien registrieren.',
+    'step1_profile' => 'Profil anpassen: Füge deinen Namen hinzu, wähle einen Benutzernamen und lade ein Profilbild hoch, um deine Reise noch spannender zu gestalten!',
+    'step2_title' => 'Schritt 2: Wähle deine Fantasy-Fußball-Liga',
+    'step2_select_league' => 'Wähle eine Liga: Nachdem du dich eingeloggt hast, kannst du aus verschiedenen Ligen wählen.',
+    'step2_public_leagues' => 'Öffentliche Ligen – Tritt bei und spiele gegen Nutzer aus der ganzen Welt.',
+    'step2_private_leagues' => 'Private Ligen – Erstelle eine benutzerdefinierte Liga und lade Freunde, Familie oder Kollegen ein.',
+    'step2_head_to_head_leagues' => 'Kopf-an-Kopf Ligen – Fordere jede Woche einen einzelnen Spieler zu einem direkten Duell heraus.',
+    'step3_title' => 'Schritt 3: Baue dein Fantasy-Fußball-Team',
+    'step3_choose_players' => 'Wähle deine Spieler: Stelle dir dein Traum-Team aus der Österreichischen Bundesliga zusammen. Du hast ein festes Budget, um Spieler basierend auf ihrem realen Leistungspotenzial auszuwählen.',
+    'step4_title' => 'Schritt 4: Punkte sammeln',
+    'step4_scoring' => 'Dein Team erhält Punkte basierend auf den realen Leistungen der ausgewählten Spieler.',
+    'step5_title' => 'Schritt 5: Dein Team verwalten und auf dem Laufenden bleiben',
+    'step5_updates' => 'Wöchentliche Anpassungen: Jede Woche kannst du Änderungen an deinem Team vornehmen.',
+    'step6_title' => 'Schritt 6: Konkurriere und gewinne',
+    'step6_rankings' => 'Steige in den Ranglisten auf, während deine Spieler Punkte sammeln. Je mehr Punkte du erzielst, desto höher steigst du auf!',
+    'tips_title' => 'Hilfreiche Tipps',
+    'tip1' => 'Bleibe auf dem Laufenden über Spieler-Verletzungen, Transfers und Spielpläne.',
+    'tip2' => 'Plane dein Team im Voraus, um dich auf kommende Spiele vorzubereiten.',
+    'tip3' => 'Achte auf eine ausgewogene Budgetverteilung, um ein starkes und vielseitiges Team zu erstellen.',
+    'disclaimer_title' => 'Haftungsausschluss',
+    'disclaimer_text' => 'Diese Website und ihre Fantasy-Fußball-Dienste sind ausschließlich für Personen ab dem gesetzlichen Alter (18 Jahre oder älter) gemäß den geltenden Gesetzen vorgesehen.',
+
 ]
 ];

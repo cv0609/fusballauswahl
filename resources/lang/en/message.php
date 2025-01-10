@@ -299,8 +299,33 @@ Please read these Terms and Conditions carefully before using our website.',
         'section_16_title' => '16. Contact Information',
         'section_16_text' => 'For further inquiries, contact us via email.',
         'email_label' => 'Email',
-    
-    
+],
+'game_instructions' => [
+    'title' => 'Game Instructions',
+    'intro_text' => 'Welcome to Fussballauswahl, your ultimate platform for Austrian Fantasy Football! Whether you\'re a beginner or an experienced Fantasy Football Manager, we make it easy to dive in and get started. Here\'s a step-by-step guide on how to get started:',
+    'step1_title' => 'Step 1: Create Your Account',
+    'step1_signup' => 'Sign up: Go to the Fussballauswahl homepage and click "Sign Up" to create an account. You can register with your email address or via social media.',
+    'step1_profile' => 'Customize Profile: Add your name, choose a username, and upload a profile picture to make your journey even more exciting!',
+    'step2_title' => 'Step 2: Choose Your Fantasy Football League',
+    'step2_select_league' => 'Choose a League: After logging in, you can choose from various leagues.',
+    'step2_public_leagues' => 'Public Leagues – Join and compete with users from around the world.',
+    'step2_private_leagues' => 'Private Leagues – Create a custom league and invite friends, family, or colleagues.',
+    'step2_head_to_head_leagues' => 'Head-to-Head Leagues – Challenge a single player every week in direct duels.',
+    'step3_title' => 'Step 3: Build Your Fantasy Football Team',
+    'step3_choose_players' => 'Choose Your Players: Build your dream team from the Austrian Bundesliga. You have a fixed budget to select players based on their real-life performance potential.',
+    'step4_title' => 'Step 4: Earn Points',
+    'step4_scoring' => 'Earn points based on real-life performance of selected players.',
+    'step5_title' => 'Step 5: Manage Your Team and Stay Updated',
+    'step5_updates' => 'Weekly Updates: You can make changes to your team every week.',
+    'step6_title' => 'Step 6: Compete and Win',
+    'step6_rankings' => 'Climb the rankings as your players earn points. The higher you rank, the closer you get to winning!',
+    'tips_title' => 'Helpful Tips',
+    'tip1' => 'Keep track of player injuries, transfers, and schedules.',
+    'tip2' => 'Plan your team in advance to prepare for upcoming matches.',
+    'tip3' => 'Balance your budget for a strong and versatile team.',
+    'disclaimer_title' => 'Disclaimer',
+    'disclaimer_text' => 'This website and its Fantasy Football services are intended only for persons over the legal age (18 or older) according to applicable laws.',
+
 ]
 
 ];
