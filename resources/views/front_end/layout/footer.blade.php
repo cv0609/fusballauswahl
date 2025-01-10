@@ -9,36 +9,36 @@
           </div>
 
           <div class="footer-blocks footer-menus">
-            <h3>Speisekarte</h3>
+            <h3>{{ __('message.header-menu.Speisekarte') }}</h3>
             <ul>
               <li>
-                <a href="{{ route('home') }}"> Startseite </a>
+                <a href="{{ route('home') }}"> {{ __('message.header-menu.Startseite') }} </a>
               </li>
               <li>
-                <a href="{{ route('game.instructions') }}"> Spielanleitung </a>
+                <a href="{{ route('game.instructions') }}"> {{ __('message.header-menu.Spielanleitung') }} </a>
               </li>
               <li>
-                <a href="{{ route('about.us') }}"> Über uns </a>
+                <a href="{{ route('about.us') }}"> {{ __('message.header-menu.Über uns') }} </a>
               </li>
               <li>
-                <a href="{{ route('contact.us') }}"> Kontaktieren Sie uns </a>
+                <a href="{{ route('contact.us') }}"> {{ __('message.header-menu.Kontaktieren Sie uns') }} </a>
               </li>
             </ul>
           </div>
 
           <div class="footer-blocks footer-sub-menus">
-            <h3>Nützliche Links</h3>
+            <h3>{{ __('message.footer-menu.Nützliche Links') }}</h3>
             <ul>
               <li>
                 <a href="./personal-information-policy">
-                  Richtlinie zu personenbezogenen Daten
+                {{ __('message.footer-menu.Richtlinie zu personenbezogenen Daten') }}
                 </a>
               </li>
               <li>
-                <a href="{{ route('privacy.policy') }}"> Datenschutzerklärung </a>
+                <a href="{{ route('privacy.policy') }}">  {{ __('message.footer-menu.Datenschutzerklärung') }} </a>
               </li>
               <li>
-                <a href="{{ route('terms.condition') }}"> Geschäftsbedingungen </a>
+                <a href="{{ route('terms.condition') }}"> {{ __('message.footer-menu.Geschäftsbedingungen') }} </a>
               </li>
             </ul>
           </div>

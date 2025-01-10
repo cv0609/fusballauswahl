@@ -11,6 +11,13 @@ return [
         'Meine Übereinstimmungen' => 'My matches',
         'Abmelden' => 'Log out',
     ],
+    'footer-menu' => [
+        'Speisekarte' => 'Speisekarte',
+        'Nützliche Links' => 'Nützliche Links',
+        'Datenschutzerklärung' => 'Datenschutzerklärung',
+        'Geschäftsbedingungen' => 'Geschäftsbedingungen',
+        'Geschäftsbedingungen' => 'Geschäftsbedingungen',
+    ],
     'home-page' => [
         'Fusballauswahl' => 'Fusballauswahl',
         'Austria-fantasy-football-provider' => "Austria's Fantasy Football Provider",
