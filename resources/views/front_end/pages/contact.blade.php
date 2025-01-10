@@ -5,7 +5,7 @@
     <div class="container">
         <div class="banner-content">
             <h1>
-                Kontaktieren Sie uns
+            {{ __('message.contact-us.contact_us') }}
             </h1>
         </div>
     </div>
@@ -17,12 +17,10 @@
     <div class="container">
         <div class="after-banner-text-wrap">
             <p>
-                Wir würden uns freuen, von Ihnen zu hören! Ob Sie eine Frage haben, Feedback geben
-                möchten oder Unterstützung bei Ihrem Fantasy-Fußball-Erlebnis benötigen – wir sind hier,
-                um zu helfen.
+            {{ __('message.contact-us.intro_text') }}
             </p>
             <p>
-                Bitte zögern Sie nicht, uns über eine der folgenden Methoden zu kontaktieren:
+            {{ __('message.contact-us.contact_methods') }}
             </p>
         </div>
     </div>
@@ -36,28 +34,26 @@
 
             <div class="header-pages-cards">
                 <h3>
-                    E-Mail:
+                {{ __('message.contact-us.email') }}:
                 </h3>
                 <p>
-                    Für Anfragen, Support-Anfragen oder Feedback können Sie uns eine E-Mail senden an:
+                {{ __('message.contact-us.email_text') }}
                 </p>
                 <p>
                     <strong>
-                        E-Mail:
+                    {{ __('message.contact-us.email') }}:
                     </strong>
                     <a href="mailto:info@fussballauswahl.com">info@fussballauswahl.com</a>
                 </p>
                 <p>
-                    Wir bemühen uns, alle E-Mails innerhalb von 24 Stunden zu beantworten.
+                {{ __('message.contact-us.email_response_time') }}
                 </p>
             </div>
 
             <div class="contact-form-section header-pages-cards ">
 
                 <p>
-                    Alternativ können Sie das untenstehende Kontaktformular ausfüllen, und wir werden uns so
-                    schnell wie möglich bei Ihnen melden. Bitte geben Sie so viele Details wie möglich an, damit
-                    wir Ihnen effizient weiterhelfen können.
+                {{ __('message.contact-us.contact_form_text') }}
                 </p>
                 <div class="contact-page-form-section">
                     <div class="row">
@@ -123,36 +119,12 @@
 
 <!-- Disclaimer Section Start -->
 <section class="disclaimer text-center pb-5">
-    <div class="container">
-        <h3 class="text-center">
-            Haftungsausschluss
-        </h3>
-        <p>
-            Diese Website und ihre Fantasy-Fußball-Dienste sind ausschließlich für Personen ab dem gesetzlichen
-            Alter (18 Jahre oder älter) gemäß den
-            geltenden Gesetzen vorgesehen. Durch die Nutzung unserer Plattform bestätigen Sie, dass Sie die
-            Altersanforderungen für die Teilnahme an
-            Fantasy-Fußball-Spielen erfüllen.
-        </p>
-        <p>
-            Unsere Plattform dient ausschließlich Unterhaltungszwecken und ist nicht mit offiziellen Fußball-Ligen,
-            einschließlich der Österreichischen
-            Bundesliga oder anderen professionellen Fußballverbänden, verbunden. Alle Spielerstatistiken, Teamdaten
-            und Spielergebnisse dienen nur zu
-            Illustrationszwecken und spiegeln nicht immer reale Ergebnisse wider.
-        </p>
-        <p>
-            Wir fördern, unterstützen oder bieten keine Form von Glücksspiel an. Die Teilnahme an Fantasy-Fußball
-            ist keine Wettform, und von den Nutzern
-            wird nicht verlangt, Geld zu setzen, um teilzunehmen. Alle Aktivitäten auf der Website sind für Spaß und
-            freundliche Wettbewerbe unter den
-            Nutzern gedacht.
-        </p>
-        <p>
-            Wir setzen uns dafür ein, ein sicheres und angenehmes Erlebnis zu gewährleisten, und ermutigen zu einer
-            verantwortungsvollen Teilnahme an
-            allen Fantasy-Fußball-Aktivitäten.
-        </p>
+<div class="container">
+        <h3 class="text-center">{{ __('message.contact-us.disclaimer_title') }}</h3>
+        <p>{{ __('message.contact-us.disclaimer_text1') }}</p>
+        <p>{{ __('message.contact-us.disclaimer_text2') }}</p>
+        <p>{{ __('message.contact-us.disclaimer_text3') }}</p>
+        <p>{{ __('message.contact-us.disclaimer_text4') }}</p>
     </div>
 </section>
 <!-- Disclaimer Section Start -->
