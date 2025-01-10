@@ -74,11 +74,11 @@
             @endif
 
             <div class="lang-dropdown">
-                            <button class="lang-dropbtn"><img src="img/Flag_of_France.svg.png" alt=""></button>
-                            <div class="lang-dropdown-content">
-                                <a href="{{ url('set-local/en') }}"><img src="img/uk.png" alt="">ENG</a>
-                                <a href="{{ url('set-local/de') }}"><img src="img/Flag_of_France.svg.png" alt="">DE</a>           
-                            </div>
+                <button class="lang-dropbtn"><img src="{{ asset('assets/images/Flag_of_France.svg.png') }}" alt=""></button>
+                <div class="lang-dropdown-content">
+                    <a href="{{ url('set-local/en') }}"><img src="img/uk.png" alt="">ENG</a>
+                    <a href="{{ url('set-local/de') }}"><img src="img/Flag_of_France.svg.png" alt="">DE</a>           
+                </div>
             </div>
             <div
               class="custom-closer bg-contain close-btn bg-center bg-no-repeat"

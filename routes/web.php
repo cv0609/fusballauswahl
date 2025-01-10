@@ -8,7 +8,7 @@ use App\Http\Controllers\FootballController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\admin\AuthController as AdminAuthController;
 use App\Http\Controllers\admin\HomeController as AdminHomeAuthController;
-
+use Illuminate\Support\Facades\App;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,9 +45,12 @@ Route::get('/my-team', [FootballController::class, 'viewTeam'])->name('my-team')
 Route::get('/current-team-count', [FootballController::class, 'currentTeamCount'])->name('current-team-count');
 Route::get('/auth.check', [FootballController::class, 'AuthCheck'])->name('auth.check');
 Route::post('/make-captain', [FootballController::class, 'makeCaptain'])->name('make.captain');
-Route::get('set-local/{local}',function($local){
-    App::setlocale($local);
-})
+Route::get('set-local/{locale}', function ($locale) {
+    // Validate the locale
+    App::setLocale($locale);
+    Session::put('locale', $locale);
+    return redirect()->back();
+});
 // Route::get('/proxy-image', function(Request $request) {
 //     $url = $request->query('url');
 //     $cacheKey = 'proxy_image_' . md5($url);
