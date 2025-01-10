@@ -48,7 +48,8 @@ Route::post('/make-captain', [FootballController::class, 'makeCaptain'])->name('
 // Route::get('set-local/{locale}',[HomeController::class, 'set_langaugeCode'] );
 Route::get('set-local/{locale}', function ($locale) {
     // Validate the locale
-    App::setLocale($locale);
+     App::setLocale('de');
+   
     Session::put('locale', $locale);
     return redirect()->back();
 });
