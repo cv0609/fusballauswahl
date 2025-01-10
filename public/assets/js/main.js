@@ -27,7 +27,9 @@ $('.tab').on('click', function (evt) {
   $('.tab-content').removeClass('active');
   $(sel).addClass('active');
 });
+// League Pages Tabs JS Start
 $(".profile").click(function(){
   $(this).find(".dropdown").slideToggle();
 });
-// League Pages Tabs JS Start
+
+
