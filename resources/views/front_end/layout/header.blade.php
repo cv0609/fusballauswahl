@@ -76,8 +76,8 @@
             <div class="lang-dropdown">
                             <button class="lang-dropbtn"><img src="img/Flag_of_France.svg.png" alt=""></button>
                             <div class="lang-dropdown-content">
-                                <a href="../globets-eng/index.html"><img src="img/uk.png" alt="">ENG</a>
-                                <a href="../french-globets/index.html"><img src="img/Flag_of_France.svg.png" alt="">FR</a>           
+                                <a href="{{ url('set-local/en') }}"><img src="img/uk.png" alt="">ENG</a>
+                                <a href="{{ url('set-local/de') }}"><img src="img/Flag_of_France.svg.png" alt="">DE</a>           
                             </div>
             </div>
             <div
