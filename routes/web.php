@@ -45,6 +45,7 @@ Route::get('/my-team', [FootballController::class, 'viewTeam'])->name('my-team')
 Route::get('/current-team-count', [FootballController::class, 'currentTeamCount'])->name('current-team-count');
 Route::get('/auth.check', [FootballController::class, 'AuthCheck'])->name('auth.check');
 Route::post('/make-captain', [FootballController::class, 'makeCaptain'])->name('make.captain');
+// Route::get('set-local/{locale}',[HomeController::class, 'set_langaugeCode'] );
 Route::get('set-local/{locale}', function ($locale) {
     // Validate the locale
     App::setLocale($locale);

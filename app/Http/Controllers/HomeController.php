@@ -73,4 +73,13 @@ class HomeController extends Controller
      public function gameInstructions(){
       return view('front_end.pages.game-instructions');
     }
+
+    function set_langaugeCode($langauge_code = 'en'){
+      if($langauge_code){
+           setcookie('language_code', $langauge_code, time() + (86400 * 30), "/");
+           return redirect()->back();
+       }else{
+         return redirect()->back();
+       }
+   }
 }
