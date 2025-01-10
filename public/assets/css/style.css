@@ -3147,3 +3147,65 @@ div#myTable_info {
     color: #000;
 }
 
+
+/* Language Dropdown CSS Start */
+.lang-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .lang-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  
+  }
+  
+  .lang-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .lang-dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .lang-dropdown:hover .lang-dropdown-content {
+    display: block;
+  }
+  
+  
+  .lang-dropdown img {
+    max-width: 35px;
+    height: 35px;
+    border-radius: 30px;
+  
+  }
+  
+  .lang-dropdown-content a img {
+    margin: 0px 10px 0px 0;
+    border-radius: 30px;
+    height: 35px;
+    max-width: 35px;
+  }
+  .lang-dropbtn {
+    border-radius:50%;
+    height: 40px;
+    width: 40px;
+    border:none;
+    display: inline-block;
+    padding: 0;
+  border:1px solid #FF0268;
+  overflow: hidden;
+  }
+  .lang-dropbtn img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  /* Language Dropdown CSS End */

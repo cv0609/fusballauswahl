@@ -73,6 +73,13 @@
             </div>
             @endif
 
+            <div class="lang-dropdown">
+                            <button class="lang-dropbtn"><img src="img/Flag_of_France.svg.png" alt=""></button>
+                            <div class="lang-dropdown-content">
+                                <a href="../globets-eng/index.html"><img src="img/uk.png" alt="">ENG</a>
+                                <a href="../french-globets/index.html"><img src="img/Flag_of_France.svg.png" alt="">FR</a>           
+                            </div>
+            </div>
             <div
               class="custom-closer bg-contain close-btn bg-center bg-no-repeat"
             ></div>
