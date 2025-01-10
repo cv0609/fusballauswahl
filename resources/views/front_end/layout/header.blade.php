@@ -75,20 +75,19 @@
                 </div>
               </div>
             </div>
-            @endif
-
-            <div class="lang-dropdown">
-                <button class="lang-dropbtn"><img src="{{ asset('assets/images/Flag_of_France.svg.png') }}" alt=""></button>
+            @endif          
+            
+            <div class="custom-closer bg-contain close-btn bg-center bg-no-repeat"></div>
+          </div>
+          <div class="lang-dropdown">
+                <button class="lang-dropbtn"><img src="{{ asset('assets/images/translate.png') }}" alt=""></button>
                 <div class="lang-dropdown-content">
-                    <a href="{{ url('set-local/en') }}"><img src="img/uk.png" alt="">ENG</a>
-                    <a href="{{ url('set-local/de') }}"><img src="img/Flag_of_France.svg.png" alt="">DE</a>           
+                    <a href="{{ url('set-local/en') }}">ENG</a>
+                    <a href="{{ url('set-local/de') }}">DE</a>           
                 </div>
             </div>
-            <div
-              class="custom-closer bg-contain close-btn bg-center bg-no-repeat"
-            ></div>
-          </div>
         </nav>
+        
       </div>
     </header>
     <!-- Header Section End -->

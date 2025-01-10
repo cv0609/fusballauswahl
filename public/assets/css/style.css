@@ -7,6 +7,7 @@
     font-family: NeueMachina;
     src: url(../fonts/NeueMachina-Regular.otf);
 }
+
 /* Global CSS Start */
 
 * {
@@ -239,6 +240,8 @@ img {
 .custom-menu {
     display: flex;
     position: relative;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 .custom-menu ul {
@@ -501,9 +504,11 @@ img {
 .leagues_logo1 {
     background-image: url("../images/leagues-icon1.jpg");
 }
+
 .leagues_logo2 {
     background-image: url("../images/leagues-icon2.jpg");
 }
+
 .leagues_logo3 {
     background-image: url("../images/leagues-icon3.jpg");
 }
@@ -1800,7 +1805,7 @@ table tr:nth-child(odd):hover {
 
     width: 100%;
     overflow-x: auto;
-    border-radius:0 0 14px 14px;
+    border-radius: 0 0 14px 14px;
 }
 
 .fusball_leagues-inner-content table th {
@@ -2210,6 +2215,7 @@ section.my-profile {
     width: 80px;
     margin: 0 auto;
 }
+
 .update_img_user_img {
     position: relative;
     width: 80px;
@@ -2219,10 +2225,12 @@ section.my-profile {
     border: 3px solid #12e1b9;
     overflow: hidden;
 }
+
 .edit_pan svg {
     height: 12px;
 }
-.update_img_user_img img{
+
+.update_img_user_img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -2557,9 +2565,11 @@ td.player-name p {
     position: relative;
     font-family: NeueMachina;
 }
+
 td.cap-vice {
     position: relative;
 }
+
 .my-team-page .player-toggle {
     border-radius: 50%;
     background: transparent;
@@ -3040,7 +3050,8 @@ fieldset {
     width: 100%;
     margin-bottom: 20px;
 }
-.modal-images-inner{
+
+.modal-images-inner {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3048,12 +3059,15 @@ fieldset {
     width: 100px;
     margin: 0 auto;
 }
+
 .modal-failure-image {
     background-image: url(../images/modal-close.png);
 }
-.modal-success-image{
+
+.modal-success-image {
     background-image: url(../images/modal-check.png);
 }
+
 .modal-btn {
     color: #000;
     background-color: #12e1b9;
@@ -3063,27 +3077,31 @@ fieldset {
     font-size: 17px;
     font-weight: 600;
     border: 1px solid #12e1b9;
-    transition: 0.3s all  ease-in-out;
-    -webkit-transition: 0.3s all  ease-in-out;
-    -moz-transition: 0.3s all  ease-in-out;
-    -ms-transition: 0.3s all  ease-in-out;
-    -o-transition: 0.3s all  ease-in-out;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
 }
-.modal-btn:hover{
+
+.modal-btn:hover {
     background-color: #fff;
     border: 1px solid #12e1b9;
     color: #000;
 }
-.modal-header{
+
+.modal-header {
     border-bottom: 1px solid #12e1b9;
 }
-.modal-footer{
+
+.modal-footer {
     border-top: 1px solid #12e1b9;
 }
 
 /* Fixes */
 
-.alert-success,.alert-danger {
+.alert-success,
+.alert-danger {
     padding: 8px;
     font-size: 14px;
     position: absolute;
@@ -3094,55 +3112,68 @@ fieldset {
     max-width: 350px;
     margin: 0 auto;
 }
+
 .dt-layout-cell.dt-layout-start {
     display: inline-block;
     margin-bottom: 15px;
 }
+
 .dt-layout-cell.dt-layout-end {
     display: inline-block;
     float: right;
 }
+
 .dt-length label {
     color: #fff;
     margin-left: 15px;
 }
+
 .dt-search label {
     color: #fff;
     margin-right: 15px;
 }
+
 .leagues .league-logo img {
     height: 50px;
     width: 50px;
     object-fit: cover;
 }
+
 div#myTable_info {
     color: #fff;
     margin-top: 15px;
 }
+
 .dt-paging {
     margin-top: 15px;
 }
+
 .dt-paging-button {
     border: none;
     padding: 5px 10px;
     margin-inline: 5px;
 }
+
 .modal-body span {
     display: block;
     width: 100%;
 }
+
 .modal-body {
     text-align: center;
 }
+
 .modal-body #error-message {
     color: #000;
     margin-top: 20px;
 }
+
 .modal-body span svg {
     height: 100px;
     width: 100px;
     object-fit: cover;
 }
+
 .modal-body #cap-message {
     color: #000;
 }
@@ -3152,60 +3183,66 @@ div#myTable_info {
 .lang-dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .lang-dropdown-content {
+    margin-left: 10px;
+}
+.lang-dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  
-  }
-  
-  .lang-dropdown-content a {
+    right: 0;
+    bottom: -100px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.lang-dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .lang-dropdown-content a:hover {
+}
+
+.lang-dropdown-content a:hover {
     background-color: #ddd;
-  }
-  
-  .lang-dropdown:hover .lang-dropdown-content {
+}
+
+.lang-dropdown:hover .lang-dropdown-content {
     display: block;
-  }
-  
-  
-  .lang-dropdown img {
+}
+
+
+.lang-dropdown img {
     max-width: 35px;
     height: 35px;
     border-radius: 30px;
-  
-  }
-  
-  .lang-dropdown-content a img {
+
+}
+
+.lang-dropdown-content a img {
     margin: 0px 10px 0px 0;
     border-radius: 30px;
     height: 35px;
     max-width: 35px;
-  }
-  .lang-dropbtn {
-    border-radius:50%;
+}
+
+.lang-dropbtn {
+    border-radius: 50%;
     height: 40px;
     width: 40px;
-    border:none;
+    border: none;
     display: inline-block;
     padding: 0;
-  border:1px solid #FF0268;
-  overflow: hidden;
-  }
-  .lang-dropbtn img {
+
+    overflow: hidden;
+}
+
+.lang-dropbtn img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-  }
-  /* Language Dropdown CSS End */
+}
+
+/* Language Dropdown CSS End */
