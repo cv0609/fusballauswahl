@@ -1,5 +1,16 @@
 <?php
 return [
+    'header-menu' => [
+        'Startseite' => 'Startseite',
+        'Spielanleitung' => 'Spielanleitung',
+        'Über uns' => 'Über uns',
+        'Kontaktieren Sie uns' => 'Kontaktieren Sie uns',
+        'Benutzerkonto Erstellen' => 'Benutzerkonto Erstellen',
+        'Einloggen in' => 'Einloggen in',
+        'Mein Profil' => 'Mein Profil',
+        'Meine Übereinstimmungen' => 'Meine Übereinstimmungen',
+        'Abmelden' => 'Abmelden',
+    ],
     'home-page' => [
         'Fusballauswahl' => 'Fusballauswahl',
         'Austria-fantasy-football-provider' => "Austria's Fantasy Football Provider",

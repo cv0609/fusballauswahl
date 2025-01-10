@@ -12,15 +12,15 @@
 
           <div class="custom-menu">
             <ul>
-              <li><a class="{{ Route::is('home') ? 'active' : '' }}" href="{{ route('home') }}">Startseite</a></li>
-              <li><a class="{{ Route::is('game.instructions') ? 'active' : '' }}" href="{{ route('game.instructions') }}">Spielanleitung</a></li>
-              <li><a class="{{ Route::is('about.us') ? 'active' : '' }}" href="{{ route('about.us') }}">Über uns</a></li>
-              <li><a class="{{ Route::is('contact.us') ? 'active' : '' }}" href="{{ route('contact.us') }}">Kontaktieren Sie uns</a></li>
+              <li><a class="{{ Route::is('home') ? 'active' : '' }}" href="{{ route('home') }}">{{ __('message.header-menu.Startseite') }}</a></li>
+              <li><a class="{{ Route::is('game.instructions') ? 'active' : '' }}" href="{{ route('game.instructions') }}">{{ __('message.header-menu.Spielanleitung') }}</a></li>
+              <li><a class="{{ Route::is('about.us') ? 'active' : '' }}" href="{{ route('about.us') }}">{{ __('message.header-menu.Über uns') }}</a></li>
+              <li><a class="{{ Route::is('contact.us') ? 'active' : '' }}" href="{{ route('contact.us') }}">{{ __('message.header-menu.Kontaktieren Sie uns') }}</a></li>
             </ul>
             @if(!Auth::check())
 
             <a href="{{ route('register') }}" class="custom-btns custom-signup"
-              >Benutzerkonto Erstellen</a
+              >{{ __('message.header-menu.Benutzerkonto Erstellen') }}</a
             >
             <a href="{{ route('login') }}" class="custom-btns custom-login">Einloggen in</a>
             @endif
@@ -48,7 +48,8 @@
                         <div
                           class="profile-dropdown-options profile-image-dropdown"
                         ></div>
-                        Mein Profil
+                        {{ __('message.header-menu.Mein Profil') }}
+                        
                       </a>
                     </li>
                     <li>
@@ -56,7 +57,9 @@
                         <div
                           class="profile-dropdown-options profile-image-stadium"
                         ></div>
-                        Meine Übereinstimmungen
+                        {{ __('message.header-menu.Meine Übereinstimmungen') }}
+
+                        
                       </a>
                     </li>
                     <li>
@@ -64,7 +67,8 @@
                         <div
                           class="profile-dropdown-options profile-image-logout"
                         ></div>
-                        Abmelden
+                        {{ __('message.header-menu.Abmelden') }}
+
                       </a>
                     </li>
                   </ul>
