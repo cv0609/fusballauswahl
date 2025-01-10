@@ -1,15 +1,15 @@
 <?php
 return [
     'header-menu' => [
-        'Startseite' => 'Startseite',
-        'Spielanleitung' => 'Spielanleitung',
-        'Über uns' => 'Über uns',
-        'Kontaktieren Sie uns' => 'Kontaktieren Sie uns',
-        'Benutzerkonto Erstellen' => 'Benutzerkonto Erstellen',
-        'Einloggen in' => 'Einloggen in',
-        'Mein Profil' => 'Mein Profil',
-        'Meine Übereinstimmungen' => 'Meine Übereinstimmungen',
-        'Abmelden' => 'Abmelden',
+        'Startseite' => 'Home page',
+        'Spielanleitung' => 'Game instructions',
+        'Über uns' => 'About Us',
+        'Kontaktieren Sie uns' => 'Contact us',
+        'Benutzerkonto Erstellen' => 'Create user account',
+        'Einloggen in' => 'Log in',
+        'Mein Profil' => 'My profile',
+        'Meine Übereinstimmungen' => 'My matches',
+        'Abmelden' => 'Log out',
     ],
     'home-page' => [
         'Fusballauswahl' => 'Fusballauswahl',
